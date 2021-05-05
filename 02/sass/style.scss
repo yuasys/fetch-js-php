@@ -1,0 +1,65 @@
+// /* A Modern CSS Reset */
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+// Pale Layout
+.wrap {
+  display: flex;
+}
+.aside {
+  padding-top: 20px;
+  width: 400px;
+  height: 100vh;
+  background-color: #535353;
+}
+.main {
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+// button
+.container {
+  text-align: center;
+  #btn {
+      font-family: Sans-serif;
+      cursor:pointer;
+      font-size: 20px;
+      color: #6b6868;
+      letter-spacing: 3px;
+      text-indent: 3px;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: none;
+      padding: 3px 10px;
+      background: linear-gradient(82deg, #d4fff1 14%,#ebecff 73%);
+      text-shadow: 0px 2px 4px #919191;
+      border: none;
+      box-shadow: 1px 5px 7px #868585;
+      margin-bottom: 20px;
+  }
+}
+// 要件の説明
+#data {
+  display: none;
+}
+.spec {
+    width: 90%;
+    max-width: 700px;
+    margin:0 auto;
+    background-color: rgb(255, 246, 246);
+    padding: 1em;
+    border-radius: .5em;
+    font-size: 14px;
+
+
+    p {
+      margin:0;
+      line-height: 1.8;
+    }
+ 
+  .title {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: .7em;
+  }
+}

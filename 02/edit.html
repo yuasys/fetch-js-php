@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch02編集</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <aside class="aside">
+      <section class="spec">
+        <p class="title">このページの機能要件</p>
+        <ol>
+          <li>"jaon/data.js"ファイルを読み込んで初期値を設定する</li>
+          <li>「編集」ボタンを押すと設定値を編集できようになる</li>
+          <li>「保存」ボタンを押すと編集した設定値を"json/data.js"に上書き保存する</li>
+        </ol>
+      </section>
+    </aside>
+    <main class="main">
+      <div class="container">
+        <button class="btn" id="edit">編集</button>
+        <button class="btn" id="save">保存</button>
+      </div>
+        <p>店 舗 名：<span id="companyName">会社名</span></p>
+        <p>電話番号：<span id="phoneNumber">電話番号</span></p>
+      </div>
+    </main>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
